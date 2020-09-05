@@ -1,0 +1,14 @@
+.warp{
+    display: flex;
+}
+.left{
+    padding:20px;
+    background-color:#b3d4d1;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.p{
+    
+}
