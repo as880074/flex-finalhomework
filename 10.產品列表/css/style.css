@@ -1,0 +1,116 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.menu{
+    padding: 5px;
+    text-align: center;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+.menu ul{
+    display: flex;
+    flex-direction: column;
+}
+.menu h2{
+    padding:20px;
+    background-color:#37523d;
+    color:white;
+    border:1px solid #e7eeea;
+    font-size:20px;
+    font-weight: bold;
+}
+.menu ul li{
+    padding:20px;
+    border:1px solid #e7eeea;
+    font-size:20px;
+    font-weight: bold;
+}
+.menu ul li:hover{
+    background-color:#e7eeea;
+}
+.warp{
+    display: flex;
+}
+.title{
+    color:#37523d;
+    justify-content: flex;
+    display: flex;
+    font-size:20px;
+    font-weight: bold;
+}
+.title h2{
+    padding: 10px;
+    width:180px;
+    text-align: center;
+    border:1px solid #e7eeea;
+}
+.title span{
+    padding: 10px;
+    width:76px;
+    text-align: center;
+    border:1px solid #e7eeea;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card{
+    margin:10px;
+    border:1px solid #e7eeea;
+}
+.button{   
+    text-align: center;
+    background-color:#e7eeea;
+    padding: 20px;  
+}
+a{
+    text-decoration:none;
+    font-size:20px;
+    font-weight: bold;
+}
